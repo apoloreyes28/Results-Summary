@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     background-color: var(--pale-blue);
 }
@@ -214,9 +214,7 @@ body {
 
 .col.right button:hover {
     cursor: pointer;
-    color: var(--dark-gray-blue);
-    border: 2px solid var(--dark-gray-blue);
-    background-color: var(--white);
+    background: linear-gradient(0deg, var(--light-royal-blue), var(--light-slate-blue));
 }
 
 /* ----------------------------- */
