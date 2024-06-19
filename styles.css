@@ -60,10 +60,58 @@ body {
     /* border: 1px solid gray; */
 }
 
+.col.left {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 32px;
+    color: var(--light-lavender);
+    background-color: var(--light-slate-blue);
+}
+
+.col.left h2 {
+    margin-bottom: 20px;
+}
+
+.col.left ._76_ {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+    background-color: var(--violet-blue);
+}
+
+.col.left ._76_ .large {
+    font-weight: 700;
+    font-size: 70px;
+    color: var(--white);
+}
+
+.col.left h1 {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.col.left .description {
+    text-align: center;
+    width: 250px;
+}
+
+/* ----------------------------- */
 
 
 
-
+/* ----------------------------- */
 
 .attribution {
     font-size: 12px;
