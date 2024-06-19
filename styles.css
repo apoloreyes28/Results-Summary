@@ -212,6 +212,13 @@ body {
     background-color: var(--dark-gray-blue);
 }
 
+.col.right button:hover {
+    cursor: pointer;
+    color: var(--dark-gray-blue);
+    border: 2px solid var(--dark-gray-blue);
+    background-color: var(--white);
+}
+
 /* ----------------------------- */
 
 @media screen and (max-width: 700px) {
@@ -228,6 +235,21 @@ body {
 
     .col {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        padding: 0;
+    }
+    
+    .container {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .col.right .states .row .row_info {
+        font-size: 16px;
     }
 }
 
