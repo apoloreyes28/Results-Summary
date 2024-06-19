@@ -142,18 +142,30 @@ body {
     /* border: 1px solid gray; */
 }
 
+.col.right .states .row.reaction {
+    background-color: hsla(0, 100%, 67%, 0.07);
+}
 .col.right .states .row.reaction .text_state {
     color: var(--light-red);
 }
 
+.col.right .states .row.memory {
+    background-color: hsla(39, 100%, 56%, 0.07);
+}
 .col.right .states .row.memory .text_state {
     color: var(--orangey-yellow);
 }
 
+.col.right .states .row.verbal {
+    background-color: hsla(166, 100%, 37%, 0.07);
+}
 .col.right .states .row.verbal .text_state {
     color: var(--green-teal);
 }
 
+.col.right .states .row.visual {
+    background-color: hsla(234, 100%, 45%, 0.07);
+}
 .col.right .states .row.visual .text_state {
     color: var(--cobalt-blue);
 }
