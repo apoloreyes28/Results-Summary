@@ -139,6 +139,23 @@ body {
 
     display: flex;
     border-radius: 12px;
+    /* border: 1px solid gray; */
+}
+
+.col.right .states .row.reaction .text_state {
+    color: var(--light-red);
+}
+
+.col.right .states .row.memory .text_state {
+    color: var(--orangey-yellow);
+}
+
+.col.right .states .row.verbal .text_state {
+    color: var(--green-teal);
+}
+
+.col.right .states .row.visual .text_state {
+    color: var(--cobalt-blue);
 }
 
 .col.right .states .row .row_info {
@@ -171,6 +188,16 @@ body {
     margin-right: 5px;
     font-weight: 700;
     color: var(--dark-gray-blue);
+}
+
+.col.right button {
+    font-size: 20px;
+    padding: 16px;
+    color: var(--white);
+    border: none;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: var(--dark-gray-blue);
 }
 
 /* ----------------------------- */
