@@ -111,7 +111,67 @@ body {
 
 /* ----------------------------- */
 
+.col.right {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+}
 
+.col.right h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--dark-gray-blue);
+}
+
+.col.right .states {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: hsla(224, 30%, 27%, 0.5);
+    /* border: 1px solid blue; */
+}
+
+.col.right .states .row {
+    width: 100%;
+    padding: 12px;
+
+    display: flex;
+    border-radius: 12px;
+}
+
+.col.right .states .row .row_info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+.col.right .states .row .row_info .icon_state {
+    padding-right: 10px;
+    height: 20px;
+    /* border: 1px solid orange; */
+}
+
+.col.right .states .row .row_info .text_state {
+    flex: 2;
+    /* border: 1px solid pink; */
+}
+
+.col.right .states .row .row_info .number_state {
+    flex: 1.2;
+    display: flex;
+    font-weight: 700;
+    justify-content: flex-end;
+    /* border: 1px solid yellow; */
+}
+
+.col.right .states .row .row_info .number_state .high {
+    margin-right: 5px;
+    font-weight: 700;
+    color: var(--dark-gray-blue);
+}
 
 /* ----------------------------- */
 
