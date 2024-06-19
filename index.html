@@ -13,19 +13,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 14px;
-      text-align: center;
-      position: absolute;
-      bottom: 1px;
-      right: 1px;
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <title>Frontend Mentor | Results summary component</title>
 </head>
 
 <body>
@@ -42,7 +32,64 @@
       </p>
     </div>
 
-    <div class="col right"></div>
+    <div class="col right">
+      <h2>Summary</h2>
+
+      <div class="states">
+
+        <div class="row reaction">
+          <div class="row_info">
+            <div class="icon_state"><img src="assets/images/icon-reaction.svg" alt="icon"></div>
+            <div class="text_state">
+              <p>Reaction</p>
+            </div>
+            <div class="number_state">
+              <p class="high">80</p>/ 100
+            </div>
+          </div>
+        </div>
+
+        <div class="row memory">
+          <div class="row_info">
+            <div class="icon_state"><img src="assets/images/icon-memory.svg" alt="icon"></div>
+            <div class="text_state">
+              <p>Memory</p>
+            </div>
+            <div class="number_state">
+              <p class="high">92</p>/ 100
+            </div>
+          </div>
+        </div>
+
+        <div class="row verbal">
+          <div class="row_info">
+            <div class="icon_state"><img src="assets/images/icon-verbal.svg" alt="icon"></div>
+            <div class="text_state">
+              <p>Verbal</p>
+            </div>
+            <div class="number_state">
+              <p class="high">61</p>/ 100
+            </div>
+          </div>
+        </div>
+
+        <div class="row visual">
+          <div class="row_info">
+            <div class="icon_state"><img src="assets/images/icon-visual.svg" alt="icon"></div>
+            <div class="text_state">
+              <p>Visual</p>
+            </div>
+            <div class="number_state">
+              <p class="high">72</p>/ 100
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button>Continue</button>
+
+    </div>
 
   </div>
 
