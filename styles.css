@@ -60,6 +60,8 @@ body {
     /* border: 1px solid gray; */
 }
 
+/* ----------------------- */
+
 .col.left {
     display: flex;
     gap: 10px;
@@ -68,7 +70,7 @@ body {
 
     padding: 32px;
     color: var(--light-lavender);
-    background-color: var(--light-slate-blue);
+    background: linear-gradient(0deg, var(--light-royal-blue), var(--light-slate-blue) 100%);
 }
 
 .col.left h2 {
@@ -76,8 +78,8 @@ body {
 }
 
 .col.left ._76_ {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 20px;
 
     display: flex;
@@ -88,7 +90,7 @@ body {
     border-radius: 100%;
     margin-bottom: 20px;
 
-    background-color: var(--violet-blue);
+    background: linear-gradient(0deg, var(--persian-blue) 0%, var(--violet-blue) 100%);
 }
 
 .col.left ._76_ .large {
